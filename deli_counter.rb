@@ -17,6 +17,6 @@ def take_a_number(deli_counter, name)
 end
 
 def now_serving(deli_counter)
-  deli_counter.empty? ? puts("There is nobody waiting to be served!") : puts("Currently serving #{array.first}.")
+  deli_counter.empty? ? puts("There is nobody waiting to be served!") : puts("Currently serving #{deli_counter.first}.")
   array.shift
 end
