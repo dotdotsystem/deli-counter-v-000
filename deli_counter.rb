@@ -18,5 +18,5 @@ end
 
 def now_serving(deli_counter)
   deli_counter.empty? ? puts("There is nobody waiting to be served!") : puts("Currently serving #{deli_counter.first}.")
-  array.shift
+  deli_counter.shift
 end
