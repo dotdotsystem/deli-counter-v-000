@@ -6,3 +6,4 @@ if deli_counter > 0
 else
   "The line is currently empty."
 end
+end 
