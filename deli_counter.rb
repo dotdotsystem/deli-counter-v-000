@@ -13,7 +13,7 @@ end
 
 def take_a_number(deli_counter, name)
   deli_counter << name
-  puts "Welcome, #{name}. You are number #{array.index(name) + 1} in line."
+  puts "Welcome, #{name}. You are number #{deli_counter.index(name) + 1} in line."
 end
 
 def now_serving(deli_counter)
