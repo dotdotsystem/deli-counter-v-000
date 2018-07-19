@@ -1,6 +1,5 @@
 
 def line(deli_counter)
-
 if deli_counter.empty?
   puts "The line is currently empty."
 else
@@ -12,10 +11,3 @@ else
  end
 end
 
-
-
-
-
-"The line is currently: 1. Logan 2. Avi 3. Spencer"
-"The line is currently: 1. Logan 2. Avi 3. Spe
-ncer"
