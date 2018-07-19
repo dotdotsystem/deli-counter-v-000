@@ -11,3 +11,14 @@ else
  end
 end
 
+def take_a_number(deli_counter)
+  deli_counter << name
+  puts "Welcome, #{name}. You are number #{array.index(name) + 1} in line."
+end
+
+
+
+def now_serving(deli_counter)
+  deli_counter.empty? ? puts("There is nobody waiting to be served!") : puts("Currently serving #{array.first}.")
+  array.shift
+end
