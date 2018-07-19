@@ -11,8 +11,8 @@ def line(deli_counter)
  end
 end
 
-def take_a_number(deli_counter)
-  deli_counter << "#{name}"
+def take_a_number(deli_counter, name)
+  deli_counter << name
   puts "Welcome, #{name}. You are number #{array.index(name) + 1} in line."
 end
 
